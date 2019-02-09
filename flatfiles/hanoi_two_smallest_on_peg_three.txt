@@ -16,7 +16,7 @@ other disks are on peg1.
        
 Example: 
 fact: (pred obj1 obj2)
-rule: ((pred obj1 obj2) (pred obj2 obj3)) -> (pred obj1 obj3)
+rule: ((pred obj1 obj2) (pred obj2 obj3)) -> (pred obj1 obj3) 
 
 """
 fact: (isA disk1 Disk)
